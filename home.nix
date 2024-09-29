@@ -5,7 +5,7 @@ let
   background_colour = "46466b";
   border_radius = "10";
   border_width = "2";
-  font = "DroidSansMono";
+  font = "Droid Sans Mono";
   icon_theme = "Papirus-Dark";
 in
 {
