@@ -1,0 +1,84 @@
+@define-color bg_color rgba(100,114,125, 0.8);
+@define-color tile_color rgba(91,104,113, 0.5);
+
+* {
+    font-family: 'Fira Code';
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+box.modules-left {
+    border: 2px solid #33ccff;
+    background-color: @bg_color;
+    border-radius: 0 10px 10px 0;
+    border-left: none;
+
+}
+box.modules-center {
+    border: 2px solid #33ccff;
+    background-color: @bg_color;
+    border-radius: 10px;
+
+}
+box.modules-right {
+    border: 2px solid #33ccff;
+    background-color: @bg_color;
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+
+}
+window#waybar {
+    border: none;
+    background-color: transparent;
+}
+#custom-os_button {
+  font-size: 20px;
+	padding-left: 12px;
+	padding-right: 20px;
+	transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+#custom-os_button:hover {
+    background:  #fff;
+    color: #000;
+}
+#workspaces button {
+    font-size: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding-right: 5px;
+    background: @tile_color;
+    color: white;
+    border-bottom: 3px solid transparent;
+}
+#workspaces button:hover {
+    background:  #fff;
+    color: #000;
+}
+
+#workspaces button.active {
+    color:#33ccff;
+}
+
+#clock, #cpu, #memory, #disk, #pulseaudio, #battery, #language, #custom-shade_button {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#tray{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#tray > .passive {
+	border-bottom: none;
+}
+#tray > .active {
+    background:  @tile_color;
+}
+#tray > .needs-attention {
+    background:  red;
+    color: #000;
+}
+#tray > widget:hover {
+    background:  #fff;
+    color: #000;
+}
