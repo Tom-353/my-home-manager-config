@@ -39,6 +39,7 @@
           "code": "󰨞",
           "mc": "",
           "dolphin": "",
+          "nwg-look": "󰒓",
           "class<discord>": "",
           "title<termusic>": "󰝚",
           "mpv": "",
@@ -52,7 +53,8 @@
           "krita": "",
           "class<minecraft>": "󰍳",
           "Minecraft": "󰍳",
-          "Half-Life": "󰘧"
+          "Half-Life": "󰘧",
+          "mindustry": "M"
           }
     },
     "hyprland/window": {
