@@ -37,6 +37,8 @@
           "class<firefox> title<.*github.*>": "", // Windows whose class is "firefox" and title contains "github". Note that "class" always comes first.
           "kitty": "", // Windows that contain "kitty" in either class or title. For optimization reasons, it will only match against a title if at least one other window explicitly matches against a title.
           "code": "󰨞",
+          "mc": "",
+          "dolphin": "",
           "class<discord>": "",
           "title<termusic>": "󰝚",
           "mpv": "",
