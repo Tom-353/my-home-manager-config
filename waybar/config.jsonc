@@ -1,7 +1,9 @@
 [{
+    "name": "main",
     "layer":"top",
     "positon":"top",
     "mode": "dock",
+    "start_hidden": true,
     "modules-left":[
         "custom/os_button",
         "group/hypr"
@@ -49,9 +51,12 @@
         "max": 100,
         "orientation": "horizontal"
     }
-}, {
+},
+{
+    "name": "side",
     "layer":"top",
     "positon":"left",
+    "mode": "dock",
     "modules-left":[
         "custom/os_button",
         "clock",
@@ -70,10 +75,11 @@
 		"~/.config/waybar/common-modules.jsonc"
 	],
     "clock": {
-        "format": " {:%R\n%d.%m.\n%Y} ",
+        "format": "{:%R\n%d.%m.\n%Y}",
     },
     "hyprland/workspaces": {
-        "format": "{name} {windows}\n",
+        "format": "{name}\n{windows}",
+        "format-window-separator": "\n",
     },
 	"group/audio": {
         "orientation": "inherit",

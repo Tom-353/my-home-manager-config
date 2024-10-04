@@ -103,6 +103,11 @@ window#waybar {
     min-width: 80px;
     border: 2px solid #33ccff;
 }
+.side#pulseaudio-slider trough {
+    min-height: 80px;
+    min-width: 10px;
+    border: 2px solid #33ccff;
+}
 #pulseaudio-slider highlight {
     min-width: 10px;
     background-color: #fff;
