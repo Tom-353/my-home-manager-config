@@ -92,7 +92,8 @@ window#waybar {
 }
 
 #pulseaudio-slider slider {
-    size: 0;
+    max-width: 0;
+    max-height: 0;
     opacity: 0;
     border-radius: 0;
     box-shadow: none;
