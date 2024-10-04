@@ -19,6 +19,10 @@
     ],
 	"group/hardware": {
         "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-hardware"
+        },
 		"modules": [
 			"battery",
 			"cpu",
