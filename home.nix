@@ -252,12 +252,15 @@ in
         height = 300;
         offset = "20x20";
         origin = "top-right";
-        transparency = 10;
         frame_color = "#${primary_colour}";
-        font = "${font}";
+        font = "${font} 8";
         frame_width = "${border_width}";
         corner_radius = "${border_radius}";
-        background = "#${background_colour}";
+        background = "#${background_colour}aa";
+        highlight = "#ffffff"; # progress bar colour
+        progress_bar_max_width = 200;
+        progress_bar_frame_width = "${border_width}";
+        progress_bar_corner_radius = "${border_radius}"
       };
       urgency_low = {
         foreground = "#29ce29";
