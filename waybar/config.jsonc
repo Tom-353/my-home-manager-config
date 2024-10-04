@@ -4,8 +4,7 @@
     "mode": "dock",
     "modules-left":[
         "custom/os_button",
-        "hyprland/workspaces",
-        "hyprland/window"
+        "group/hypr"
     ],
     "modules-center":[
         "clock"
@@ -17,6 +16,17 @@
         "custom/shade_button",
         "hyprland/language"
     ],
+	"group/hypr": {
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-hypr"
+        },
+		"modules": [
+            "hyprland/workspaces",
+            "hyprland/window"
+		]
+	},
 	"group/hardware": {
         "orientation": "inherit",
         "drawer": {
@@ -86,7 +96,7 @@
           }
     },
     "hyprland/window": {
-        "format": "󰅂 {title} "
+        "format": " {title} "
     },
     "custom/os_button": {
         "format": "",
@@ -94,7 +104,7 @@
         "tooltip": false
     },
     "custom/shade_button": {
-        "format": "  ",
+        "format": "",
         "on-click": "hyprshade toggle",
         "tooltip": false
     },
@@ -171,7 +181,7 @@
         "max-volume": 150,
         "format": "{icon}",
         "tooltip-format": "{volume}%",
-        "format-muted": " ",
+        "format-muted": " ",
         "format-icons": {
             "default": [
                 " ",
