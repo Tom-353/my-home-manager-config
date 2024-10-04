@@ -260,7 +260,7 @@ in
         highlight = "#ffffff"; # progress bar colour
         progress_bar_max_width = 200;
         progress_bar_frame_width = "${border_width}";
-        progress_bar_corner_radius = "${border_radius}"
+        progress_bar_corner_radius = "${border_radius}";
       };
       urgency_low = {
         foreground = "#29ce29";
