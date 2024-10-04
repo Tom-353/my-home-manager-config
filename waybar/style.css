@@ -60,7 +60,8 @@ window#waybar {
     color:#33ccff;
 }
 
-#clock, #cpu, #memory, #disk, #pulseaudio, #battery, #language, #custom-shade_button {
+#clock, #cpu, #memory, #disk, #pulseaudio, #battery, #language, 
+#custom-shade_button, #custom-logout_button, #custom-restart_button, #custom-shutdown_button {
     padding-left: 3px;
     padding-right: 3px;
 }

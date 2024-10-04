@@ -53,8 +53,8 @@
 	},
 	"group/power": {
         "orientation": "inherit",
-        "transition-left-to-right": false,
         "drawer": {
+            "transition-left-to-right": false,
             "transition-duration": 500,
             "children-class": "not-power"
         },
