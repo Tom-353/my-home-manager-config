@@ -248,19 +248,20 @@ in
     enable = true;
     settings = {
       global = {
-        width = 300;
+        width = 150;
         height = 300;
-        offset = "20x20";
+        offset = "15x15";
         origin = "top-right";
         frame_color = "#${primary_colour}";
-        font = "${font} 8";
+        font = "${font} 10";
         frame_width = "${border_width}";
         corner_radius = "${border_radius}";
         background = "#${background_colour}aa";
         highlight = "#ffffff"; # progress bar colour
         progress_bar_max_width = 200;
         progress_bar_frame_width = "${border_width}";
-        progress_bar_corner_radius = "${border_radius}";
+        progress_bar_corner_radius = 6;
+        progress_bar_height = 14;
       };
       urgency_low = {
         foreground = "#29ce29";
