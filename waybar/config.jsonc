@@ -11,15 +11,33 @@
         "clock"
     ],
     "modules-right":[
-        "cpu",
-        "memory",
-        "disk",
-        "battery",
+        "group/hardware",
         "tray",
-        "pulseaudio",
+        "group/audio",
         "custom/shade_button",
         "hyprland/language"
     ],
+	"group/hardware": {
+		"orientation": "vertical",
+		"modules": [
+			"battery",
+			"cpu",
+			"memory",
+            "disk"
+		]
+	},
+	"group/audio": {
+		"orientation": "vertical",
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-audio",
+            "transition-left-to-right": false
+        },
+		"modules": [
+            "pulseaudio",
+            "pulseaudio/slider"
+		]
+	},
     "hyprland/language": {
         "format": "{}",
         "format-en": "EN",
@@ -156,5 +174,10 @@
                 " "
             ]
         }
+    },
+    "pulseaudio/slider": {
+        "min": 0,
+        "max": 100,
+        "orientation": "horizontal"
     }
 }
