@@ -55,10 +55,12 @@
         "orientation": "inherit",
         "drawer": {
             "transition-left-to-right": false,
+            "click-to-reveal": true,
             "transition-duration": 500,
             "children-class": "not-power"
         },
 		"modules": [
+            "custom/menu",
             "custom/shade_button",
             "custom/logout_button",
             "custom/shutdown_button",
@@ -115,6 +117,10 @@
     "custom/os_button": {
         "format": "",
         "on-click": "wofi -I --show drun",
+        "tooltip": false
+    },
+    "custom/menu": {
+        "format": "󰇙",
         "tooltip": false
     },
     "custom/shade_button": {

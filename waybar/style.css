@@ -60,8 +60,15 @@ window#waybar {
     color:#33ccff;
 }
 
-#clock, #cpu, #memory, #disk, #pulseaudio, #battery, #language, 
-#custom-shade_button, #custom-logout_button, #custom-restart_button, #custom-shutdown_button {
+#custom-shade_button, #custom-logout_button, #custom-restart_button, #custom-shutdown_button, #custom-menu {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+    #custom-shade_button:hover, #custom-logout_button:hover, #custom-restart_button:hover, #custom-shutdown_button:hover, #custom-menu:hover {
+    background:  #fff;
+    color: #000;
+}
+#clock, #cpu, #memory, #disk, #pulseaudio, #battery, #language {
     padding-left: 3px;
     padding-right: 3px;
 }
