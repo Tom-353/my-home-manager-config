@@ -124,7 +124,7 @@
         "tooltip": false
     },
     "custom/shade_button": {
-        "format": " ",
+        "format": "",
         "on-click": "hyprshade toggle",
         "tooltip": false
     },
@@ -134,12 +134,12 @@
         "tooltip": false
     },
     "custom/restart_button": {
-        "format": " ",
+        "format": "",
         "on-click": "reboot",
         "tooltip": false
     },
     "custom/logout_button": {
-        "format": "󰿅 ",
+        "format": "󰿅",
         "on-click": "hyprctl dispatch exit",
         "tooltip": false
     },
