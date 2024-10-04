@@ -1,5 +1,5 @@
 @define-color bg_color rgba(100,114,125, 0.8);
-@define-color tile_color rgba(91,104,113, 0.5);
+@define-color tile_color rgba(81,94,103, 0.5);
 
 * {
     font-family: 'Fira Code';
