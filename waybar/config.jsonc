@@ -18,7 +18,6 @@
         "hyprland/language"
     ],
 	"group/hardware": {
-		"orientation": "vertical",
 		"modules": [
 			"battery",
 			"cpu",
@@ -27,7 +26,6 @@
 		]
 	},
 	"group/audio": {
-		"orientation": "vertical",
         "drawer": {
             "transition-duration": 500,
             "children-class": "not-audio",
