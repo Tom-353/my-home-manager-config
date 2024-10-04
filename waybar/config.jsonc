@@ -13,8 +13,8 @@
         "group/hardware",
         "tray",
         "group/audio",
-        "custom/shade_button",
-        "hyprland/language"
+        "hyprland/language",
+        "group/power"
     ],
 	"group/hypr": {
         "orientation": "inherit",
@@ -49,6 +49,20 @@
 		"modules": [
             "pulseaudio",
             "pulseaudio/slider"
+		]
+	},
+	"group/power": {
+        "orientation": "inherit",
+        "transition-left-to-right": false,
+        "drawer": {
+            "transition-duration": 500,
+            "children-class": "not-power"
+        },
+		"modules": [
+            "custom/shade_button",
+            "custom/logout_button",
+            "custom/shutdown_button",
+            "custom/restart_button"
 		]
 	},
     "hyprland/language": {
@@ -104,8 +118,23 @@
         "tooltip": false
     },
     "custom/shade_button": {
-        "format": "",
+        "format": " ",
         "on-click": "hyprshade toggle",
+        "tooltip": false
+    },
+    "custom/shutdown_button": {
+        "format": " ",
+        "on-click": "poweroff",
+        "tooltip": false
+    },
+    "custom/restart_button": {
+        "format": " ",
+        "on-click": "reboot",
+        "tooltip": false
+    },
+    "custom/logout_button": {
+        "format": "󰿅 ",
+        "on-click": "hyprctl dispatch exit",
         "tooltip": false
     },
     "cpu": {
