@@ -18,6 +18,7 @@
         "hyprland/language"
     ],
 	"group/hardware": {
+        "orientation": "inherit",
 		"modules": [
 			"battery",
 			"cpu",
@@ -26,6 +27,7 @@
 		]
 	},
 	"group/audio": {
+        "orientation": "inherit",
         "drawer": {
             "transition-duration": 500,
             "children-class": "not-audio",
