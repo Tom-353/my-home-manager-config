@@ -54,20 +54,22 @@
         "window-rewrite-default": "",
         "window-rewrite": {
           "title<.*youtube.*>": "", // Windows whose titles contain "youtube"
-          "title<.*pdf.*>": "",
-          "class<firefox>": "", // Windows whose classes are "firefox"
+          "title<Picture-in-Picture>": "",
+          "title<.*pdf.*>": "",
+          "class<firefox>": "󰈹", // Windows whose classes are "firefox"
           "class<firefox> title<.*github.*>": "", // Windows whose class is "firefox" and title contains "github". Note that "class" always comes first.
-          "chrome": "󰊯",
-          "chromium": "󰊯",
+          "chrome": "",
+          "chromium": "",
           "kitty": "", // Windows that contain "kitty" in either class or title. For optimization reasons, it will only match against a title if at least one other window explicitly matches against a title.
           "code": "󰨞",
           "mc": "",
           "dolphin": "",
           "thunar": "",
+          "qalculate": "󰪚",
           "nwg-look": "󰒓",
           "class<discord>": "",
           "title<termusic>": "󰝚",
-          "mpv": "",
+          "mpv": "󰿎",
           "gparted": "󰥠",
           "zbar": "󰐲",
           "blueman": "󰂯",
@@ -79,7 +81,7 @@
           "krita": "",
           "class<minecraft>": "󰍳",
           "Minecraft": "󰍳",
-          "Half-Life": "󰘧",
+          "Half-Life": "󰂩",
           "mindustry": "M"
           }
     },
