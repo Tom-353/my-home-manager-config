@@ -17,7 +17,7 @@
         "group/power"
     ],
 	"include": [
-		"~/.config/waybar/common-modules.json"
+		"~/.config/waybar/common-modules.jsonc"
 	],
 	"group/hypr": {
         "orientation": "inherit",
