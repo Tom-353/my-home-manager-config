@@ -30,8 +30,7 @@
         "orientation": "inherit",
         "drawer": {
             "transition-duration": 500,
-            "children-class": "not-audio",
-            "transition-left-to-right": false
+            "children-class": "not-audio"
         },
 		"modules": [
             "pulseaudio",
