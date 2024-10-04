@@ -67,7 +67,7 @@
         "hyprland/language",
     ],
 	"include": [
-		"~/.config/waybar/common-modules.json"
+		"~/.config/waybar/common-modules.jsonc"
 	],
     "clock": {
         "format": " {:%R\n%d.%m.\n%Y} ",
