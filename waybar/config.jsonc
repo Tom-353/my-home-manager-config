@@ -3,7 +3,6 @@
     "layer":"top",
     "positon":"top",
     "mode": "dock",
-    "start_hidden": true,
     "modules-left":[
         "custom/os_button",
         "group/hypr"
@@ -54,6 +53,7 @@
 },
 {
     "name": "side",
+    "output":[],
     "layer":"top",
     "positon":"left",
     "mode": "dock",
