@@ -303,6 +303,7 @@ in
   home.file = {
     ".config/hypr".source = ./hyprland;
     ".config/waybar".source = ./waybar;
+    ".config/wofi".source = ./wofi;
     # # Building this configuration will create a copy of 'dotfiles/screenrc' in
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.

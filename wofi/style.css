@@ -1,0 +1,12 @@
+window {
+    border: 2px solid #33ccff;
+    background-color: #46466baa;
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #fff;
+    background-color: rgba(81,94,103, 0.5);
+}
+    
