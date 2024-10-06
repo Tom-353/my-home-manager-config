@@ -7,7 +7,7 @@
             "children-class": "not-hardware"
         },
 		"modules": [
-			"battery",
+			//"battery",
 			"cpu",
 			"memory",
             "disk"
@@ -177,7 +177,11 @@
           "class<minecraft>": "󰍳",
           "Minecraft": "󰍳",
           "Half-Life": "󰂩",
-          "mindustry": "M"
+          "mindustry": "M",
+          "openscad":"",
+          "blender":"󰂫",
+          "prusa":"",
+          "gimp": "",
           }
     },
     "tray": {

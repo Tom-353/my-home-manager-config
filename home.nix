@@ -25,6 +25,11 @@ in
   
   nixpkgs.config.allowUnfree = true;
   
+  programs.git = {
+    enable = true;
+    userName = "Tomáš Řehák";
+    userEmail = "tomrehak353@gmail.com";
+  };
   gtk = {
     enable = true;
     font.name = "${font}";
