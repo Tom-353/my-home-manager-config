@@ -276,6 +276,12 @@ in
       };
     };
   };
+  programs.kitty = {
+    enable = true;
+    settings = {
+      background_opacity = "0.7";
+    };
+  };
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = [
