@@ -248,7 +248,7 @@ in
     enable = true;
     settings = {
       global = {
-        width = 150;
+        width = 200;
         height = 300;
         offset = "15x15";
         origin = "top-right";
