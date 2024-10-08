@@ -22,10 +22,10 @@
 	],
 	"group/hypr": {
         "orientation": "inherit",
-        "drawer": {
+        /*"drawer": {
             "transition-duration": 500,
             "children-class": "not-hypr"
-        },
+        },*/
 		"modules": [
             "hyprland/workspaces",
             "hyprland/window"
