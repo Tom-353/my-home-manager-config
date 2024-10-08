@@ -153,6 +153,7 @@
           "title<.*pdf.*>": "",
           "class<firefox>": "󰈹", // Windows whose classes are "firefox"
           "class<firefox> title<.*github.*>": "", // Windows whose class is "firefox" and title contains "github". Note that "class" always comes first.
+          "GitHub Desktop": "",
           "chrome": "",
           "chromium": "",
           "kitty": "", // Windows that contain "kitty" in either class or title. For optimization reasons, it will only match against a title if at least one other window explicitly matches against a title.
@@ -166,6 +167,8 @@
           "title<termusic>": "󰝚",
           "mpv": "󰿎",
           "gparted": "󰥠",
+          "baobab": "󰥠",
+          "gnome-disks": "󰥠",
           "zbar": "󰐲",
           "blueman": "󰂯",
           "network": "󰖩",
@@ -177,7 +180,11 @@
           "class<minecraft>": "󰍳",
           "Minecraft": "󰍳",
           "Half-Life": "󰂩",
-          "mindustry": "M"
+          "mindustry": "M",
+          "openscad":"",
+          "blender":"󰂫",
+          "prusa":"",
+          "gimp": "",
           }
     },
     "tray": {
