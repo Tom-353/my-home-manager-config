@@ -191,4 +191,11 @@
         "icon-size": 18,
         "spacing": 3
     },
+        "custom/weather": {
+        "exec": "${HOME}/.config/waybar/scripts/get_weather.sh Brno+Czechia",
+        "return-type": "json",
+        "format": "{}",
+        "tooltip": true,
+        "interval": 3600
+    },
 }
