@@ -8,7 +8,8 @@
         "group/hypr"
     ],
     "modules-center":[
-        "clock"
+        "clock",
+        "custom/weather"
     ],
     "modules-right":[
         "group/hardware",
